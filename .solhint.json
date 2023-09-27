@@ -1,0 +1,18 @@
+{
+    "extends": "solhint:recommended",
+    "rules": {
+      "private-vars-leading-underscore": "off",
+      "var-name-mixedcase": "off",
+      "max-states-count": "off",
+      "no-global-import": "off",
+      "no-console": "off",
+      "state-visibility": "off",
+      "no-unused-vars": "off",
+      "func-param-name-mixedcase": "off",
+      "no-inline-assembly": "off",
+      "check-send-result": "off",
+      "visibility-modifier-order": "off",
+      "not-rely-on-time": "off"
+    }
+  }
+  

@@ -1,0 +1,37 @@
+[profile.default]
+src = 'contracts'
+out = 'out'
+test = 'test'
+libs = ['lib']
+remappings = [
+    "account-abstraction/=lib/account-abstraction/contracts/",
+    "forge-std/=lib/forge-std/src/",
+    "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+    "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+    "@openzeppelin/=lib/openzeppelin-contracts/",
+    "openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/",
+    "safe-core-sdk/=lib/safe-core-sdk/",
+    "@4337/=lib/account-abstraction/contracts/"
+]
+fs_permissions = [{ access = "read-write", path = ".secret"}, { access ="read", path="./out/"}]
+gas_reports = ["*"]
+ffi = true 
+
+solc = "0.8.19"
+optimize = true
+optimizer_runs = 100000
+via_ir = true
+
+[rpc_endpoints]
+# INFURA_GOERLI_TEST_RPC_URL       = "${INFURA_GOERLI_TEST_RPC_URL}"
+# INFURA_SEPOLIA_TEST_RPC_URL      = "${INFURA_SEPOLIA_TEST_RPC_URL}"
+
+[etherscan]
+# fuji = { key = "${SNOWTRACE_API_KEY}" }
+# mumbai = { key = "${POLYSCAN_API_KEY}" }
+
+[fmt]
+line_length = 120
+multiline_func_header = "params_first"
+number_underscore="thousands"
+# handle sorting of imports

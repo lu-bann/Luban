@@ -1,0 +1,12 @@
+ds-test/=lib/forge-std/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+@solbase=lib/solbase/src/
+
+@erc4337=lib/account-abstraction/contracts
+@4337=lib/account-abstraction/contracts
+@openzeppelin/=lib/openzeppelin-contracts/
+@oppenzeppelin-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts
+
+@utils/=src/utils/
+@interfaces/=src/interfaces/
+@libraries/=src/libraries/
