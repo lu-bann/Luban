@@ -27,7 +27,7 @@ Exection flow continuted (on-chain - origin chain):
 
 # SETUP
 
-git clone https://github.com/qi-protocol/crosschain-paymaster -recurse-submodules
+git clone https://github.com/qi-protocol/crosschain-paymaster --recurse-submodules
 
 replace .secret.example with .secret and a private key (can be anything)
 
