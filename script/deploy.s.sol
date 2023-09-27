@@ -5,8 +5,7 @@ import "../test/base/loadkey.t.sol";
 import "forge-std/console.sol";
 
 contract Deploy is LoadKey {
-    using UserOperationLib for UserOperation;
-    address internal eoaAddress;
+    // using UserOperationLib for UserOperation;
 
     function setUp() public virtual override {
         super.setUp();

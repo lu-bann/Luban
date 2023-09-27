@@ -4,7 +4,7 @@ pragma solidity ^0.8.17;
 import {UserOperation} from "lib/account-abstraction/contracts/interfaces/UserOperation.sol";
 import {BasePaymaster} from "lib/account-abstraction/contracts/core/BasePaymaster.sol";
 import {EntryPoint, IEntryPoint} from "lib/account-abstraction/contracts/core/EntryPoint.sol";
-import {Client, IRouterClient} from "lib/ccip-starter-kit-foundry/src/BasicMessageSender.sol";
+// import {Client, IRouterClient} from "lib/ccip-starter-kit-foundry/src/BasicMessageSender.sol";
 import {Ownable} from "lib/openzeppelin-contracts/contracts/access/Ownable.sol";
 
 interface IMailbox {
